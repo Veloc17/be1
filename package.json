@@ -1,0 +1,30 @@
+{
+  "name": "be1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Velocity",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Veloc17/be1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Veloc17/be1/issues"
+  },
+  "homepage": "https://github.com/Veloc17/be1#readme",
+  "description": ""
+}
